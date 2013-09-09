@@ -1,0 +1,56 @@
+[Mon Sep  9 23:57:47 2013] [info] Listening at "http://*:3000".
+[Mon Sep  9 23:57:56 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  9 23:57:56 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Mon Sep  9 23:57:56 2013] [debug] Routing to controller "Dostup::Example" and action "welcome".
+[Mon Sep  9 23:57:56 2013] [debug] Rendering template "example/welcome.html.ep".
+[Mon Sep  9 23:57:56 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  9 23:57:56 2013] [debug] 200 OK (0.020618s, 48.501/s).
+[Tue Sep 10 00:01:23 2013] [info] Listening at "http://*:3000".
+[Tue Sep 10 00:01:25 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 10 00:01:25 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Tue Sep 10 00:01:25 2013] [debug] Routing to controller "Dostup::Example" and action "welcome".
+[Tue Sep 10 00:01:25 2013] [debug] Rendering template "example/welcome.html.ep".
+[Tue Sep 10 00:01:25 2013] [error] syntax error at template example/welcome.html.ep line 4, near "h2>"
+1: % layout 'default';
+2: % title 'Welcome';
+3: <h1><%= $message2 %</h1>
+4: <h2><%= $message %></h2>
+5: This page was generated from the template "templates/example/welcome.html.ep"
+6: and the layout "templates/layouts/default.html.ep",
+7: <a href="<%== url_for %>">click here</a> to reload the page or
+8: <a href="/index.html">here</a> to move forward to a static page.
+
+[Tue Sep 10 00:01:25 2013] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 10 00:01:25 2013] [debug] Template "exception.html.ep" not found.
+[Tue Sep 10 00:01:25 2013] [debug] Rendering inline template.
+[Tue Sep 10 00:01:25 2013] [debug] Rendering inline template.
+[Tue Sep 10 00:01:25 2013] [debug] 500 Internal Server Error (0.052918s, 18.897/s).
+[Tue Sep 10 00:01:50 2013] [info] Listening at "http://*:3000".
+[Tue Sep 10 00:01:51 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 10 00:01:51 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Tue Sep 10 00:01:51 2013] [debug] Routing to controller "Dostup::Example" and action "welcome".
+[Tue Sep 10 00:01:51 2013] [debug] Rendering template "example/welcome.html.ep".
+[Tue Sep 10 00:01:51 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 10 00:01:51 2013] [debug] 200 OK (0.021593s, 46.311/s).
+[Tue Sep 10 00:08:56 2013] [info] Listening at "http://*:3000".
+[Tue Sep 10 00:09:07 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 10 00:09:07 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Tue Sep 10 00:09:07 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Tue Sep 10 00:09:07 2013] [debug] Action not found in controller.
+[Tue Sep 10 00:09:07 2013] [debug] Rendering template "search/default.html.ep".
+[Tue Sep 10 00:09:07 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 10 00:09:07 2013] [debug] 200 OK (0.022766s, 43.925/s).
+[Tue Sep 10 00:09:23 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Tue Sep 10 00:09:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Sep 10 00:09:23 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Sep 10 00:09:23 2013] [debug] Rendering inline template.
+[Tue Sep 10 00:09:23 2013] [debug] Rendering inline template.
+[Tue Sep 10 00:09:23 2013] [debug] 404 Not Found (0.022210s, 45.025/s).
+[Tue Sep 10 00:37:22 2013] [info] Listening at "http://*:3000".
+[Tue Sep 10 00:37:24 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 10 00:37:24 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Tue Sep 10 00:37:24 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Tue Sep 10 00:37:24 2013] [debug] Action not found in controller.
+[Tue Sep 10 00:37:24 2013] [debug] Rendering template "search/default.html.ep".
+[Tue Sep 10 00:37:24 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 10 00:37:24 2013] [debug] 200 OK (0.024115s, 41.468/s).

@@ -1,0 +1,3 @@
+% layout 'search';
+% title 'Форма поискового запроса';
+<center><h1><%= $message %></h1></center>

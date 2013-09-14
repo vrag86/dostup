@@ -1,7 +1,8 @@
 % layout 'default';
-% title 'dksjkjasdj';
+% title 'Система доступ';
 <center><h1>Узлы</h1></center>
 <form action='<% url_for %>' method='post'>
-    <input type='text' name='q' placeholder='Что будем искать?'>
-    <input type='submit' value='Поехали!'>
+    <input type='text' size="60" name='q' placeholder='Введите адрес узла'>
+    <input type='submit' value='Поиск!'>
 </form>
+  

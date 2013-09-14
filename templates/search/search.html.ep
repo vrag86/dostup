@@ -1,3 +1,8 @@
 % layout 'search';
-% title 'Форма поискового запроса';
-<center><h1><%= $message %></h1></center>
+% title 'Система доступ';
+<center><h1>Узлы</h1></center>
+<form action='<% url_for %>' method='post'>
+    <input type='text' size="60" name='address' placeholder='Введите адрес узла'>
+    <input type='submit' value='Поиск!'>
+</form>
+<%= $message %>  

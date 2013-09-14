@@ -12,8 +12,9 @@ sub startup {
   my $r = $self->routes;
 
   # Normal route to controller
-  $r->get('/')->to('search#default');
+#  $r->get('/')->to('search#default');
   $r->route('/')->via('post')->to('search#search');
+  $r->route('/')->via('get')->to('search#search');
 }
 
 1;

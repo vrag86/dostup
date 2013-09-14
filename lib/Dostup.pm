@@ -13,6 +13,7 @@ sub startup {
 
   # Normal route to controller
   $r->get('/')->to('search#default');
+  $r->route('/')->via('post')->to('search#search');
 }
 
 1;

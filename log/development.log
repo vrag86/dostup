@@ -54,3 +54,294 @@
 [Tue Sep 10 00:37:24 2013] [debug] Rendering template "search/default.html.ep".
 [Tue Sep 10 00:37:24 2013] [debug] Rendering template "layouts/default.html.ep".
 [Tue Sep 10 00:37:24 2013] [debug] 200 OK (0.024115s, 41.468/s).
+[Sat Sep 14 00:31:31 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:31:46 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:31:46 2013] [debug] GET "/".
+[Sat Sep 14 00:31:46 2013] [error] Can't locate DBI.pm in @INC (you may need to install the DBI module) (@INC contains: /home/vrag/perl/dostup/script/../lib /usr/local/bin/../lib /home/vrag/perl5/lib/perl5 /usr/local/lib/perl5/site_perl/5.18.1/x86_64-linux /usr/local/lib/perl5/site_perl/5.18.1 /usr/local/lib/perl5/5.18.1/x86_64-linux /usr/local/lib/perl5/5.18.1 .) at /home/vrag/perl/dostup/script/../lib/Dostup/Search.pm line 3.
+BEGIN failed--compilation aborted at /home/vrag/perl/dostup/script/../lib/Dostup/Search.pm line 3.
+Compilation failed in require at (eval 233) line 1.
+
+[Sat Sep 14 00:31:46 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep 14 00:31:46 2013] [debug] Template "exception.html.ep" not found.
+[Sat Sep 14 00:31:46 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:31:46 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:31:46 2013] [debug] 500 Internal Server Error (0.022780s, 43.898/s).
+[Sat Sep 14 00:32:26 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:32:29 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:32:29 2013] [debug] GET "/".
+[Sat Sep 14 00:32:29 2013] [error] Global symbol "$param" requires explicit package name at /home/vrag/perl/dostup/script/../lib/Dostup/Search.pm line 11.
+Compilation failed in require at (eval 233) line 1.
+
+[Sat Sep 14 00:32:29 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep 14 00:32:29 2013] [debug] Template "exception.html.ep" not found.
+[Sat Sep 14 00:32:29 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:32:29 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:32:29 2013] [debug] 500 Internal Server Error (0.021942s, 45.575/s).
+[Sat Sep 14 00:33:03 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:33:08 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:33:08 2013] [debug] GET "/".
+[Sat Sep 14 00:33:08 2013] [error] Global symbol "$param" requires explicit package name at /home/vrag/perl/dostup/script/../lib/Dostup/Search.pm line 11.
+Compilation failed in require at (eval 233) line 1.
+
+[Sat Sep 14 00:33:08 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep 14 00:33:08 2013] [debug] Template "exception.html.ep" not found.
+[Sat Sep 14 00:33:08 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:33:08 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:33:08 2013] [debug] 500 Internal Server Error (0.027994s, 35.722/s).
+[Sat Sep 14 00:33:55 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:33:59 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:33:59 2013] [debug] GET "/".
+[Sat Sep 14 00:33:59 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 00:33:59 2013] [debug] Action not found in controller.
+[Sat Sep 14 00:33:59 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 00:34:00 2013] [error] Can't locate object method "message2" via package "<center><h1>Узлы</h1></center>
+<form action='' method='post'>
+    <input type='text' name='q' placeholder='Что будем искать?'>
+    <input type='submit' value='Поехали!'>
+</form>
+" (perhaps you forgot to load "<center><h1>Узлы</h1></center>
+<form action='' method='post'>
+    <input type='text' name='q' placeholder='Что будем искать?'>
+    <input type='submit' value='Поехали!'>
+</form>
+"?) at template search/default.html.ep line 8.
+3: <center><h1>Узлы</h1></center>
+4: <form action='<% url_for %>' method='post'>
+5:     <input type='text' name='q' placeholder='Что будем искать?'>
+6:     <input type='submit' value='Поехали!'>
+7: </form>
+8: <% message2 %>
+
+[Sat Sep 14 00:34:00 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep 14 00:34:00 2013] [debug] Template "exception.html.ep" not found.
+[Sat Sep 14 00:34:00 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:34:00 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:34:00 2013] [debug] 500 Internal Server Error (0.210494s, 4.751/s).
+[Sat Sep 14 00:42:18 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:42:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:42:23 2013] [debug] GET "/".
+[Sat Sep 14 00:42:23 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 00:42:23 2013] [debug] Action not found in controller.
+[Sat Sep 14 00:42:23 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 00:42:23 2013] [error] syntax error at template search/default.html.ep line 8, at EOF
+3: <center><h1>Узлы</h1></center>
+4: <form action='<% url_for %>' method='post'>
+5:     <input type='text' name='q' placeholder='Что будем искать?'>
+6:     <input type='submit' value='Поехали!'>
+7: </form>
+8: % message2 %
+
+[Sat Sep 14 00:42:23 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep 14 00:42:23 2013] [debug] Template "exception.html.ep" not found.
+[Sat Sep 14 00:42:23 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:42:23 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:42:23 2013] [debug] 500 Internal Server Error (0.073680s, 13.572/s).
+[Sat Sep 14 00:43:36 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:43:39 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:43:39 2013] [debug] GET "/".
+[Sat Sep 14 00:43:39 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 00:43:39 2013] [debug] Action not found in controller.
+[Sat Sep 14 00:43:39 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 00:43:39 2013] [error] Global symbol "$message2" requires explicit package name at template search/default.html.ep line 8.
+syntax error at template search/default.html.ep line 8, at EOF
+3: <center><h1>Узлы</h1></center>
+4: <form action='<% url_for %>' method='post'>
+5:     <input type='text' name='q' placeholder='Что будем искать?'>
+6:     <input type='submit' value='Поехали!'>
+7: </form>
+8: %=$message2 %
+
+[Sat Sep 14 00:43:39 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep 14 00:43:39 2013] [debug] Template "exception.html.ep" not found.
+[Sat Sep 14 00:43:39 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:43:39 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:43:39 2013] [debug] 500 Internal Server Error (0.034520s, 28.969/s).
+[Sat Sep 14 00:44:01 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:44:02 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:44:02 2013] [debug] GET "/".
+[Sat Sep 14 00:44:02 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 00:44:02 2013] [debug] Action not found in controller.
+[Sat Sep 14 00:44:02 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 00:44:02 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep 14 00:44:03 2013] [debug] 200 OK (0.064071s, 15.608/s).
+[Sat Sep 14 00:44:08 2013] [debug] POST "/".
+[Sat Sep 14 00:44:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Sep 14 00:44:08 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Sep 14 00:44:08 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:44:08 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:44:08 2013] [debug] 404 Not Found (0.017050s, 58.651/s).
+[Sat Sep 14 00:50:23 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:50:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:50:28 2013] [debug] POST "/".
+[Sat Sep 14 00:50:28 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Sat Sep 14 00:50:28 2013] [debug] Rendering template "search/search.html.ep".
+[Sat Sep 14 00:50:28 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep 14 00:50:28 2013] [debug] 200 OK (0.066537s, 15.029/s).
+[Sat Sep 14 00:50:34 2013] [debug] GET "/".
+[Sat Sep 14 00:50:34 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 00:50:34 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 00:50:34 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep 14 00:50:34 2013] [debug] 200 OK (0.012411s, 80.574/s).
+[Sat Sep 14 00:50:37 2013] [debug] POST "/".
+[Sat Sep 14 00:50:37 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Sat Sep 14 00:50:37 2013] [debug] Rendering cached template "search/search.html.ep".
+[Sat Sep 14 00:50:37 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Sep 14 00:50:37 2013] [debug] 200 OK (0.001281s, 780.640/s).
+[Sat Sep 14 00:51:01 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:51:07 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:51:07 2013] [debug] GET "/".
+[Sat Sep 14 00:51:07 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 00:51:07 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 00:51:07 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep 14 00:51:07 2013] [debug] 200 OK (0.025348s, 39.451/s).
+[Sat Sep 14 00:51:13 2013] [debug] POST "/".
+[Sat Sep 14 00:51:13 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Sat Sep 14 00:51:13 2013] [debug] Rendering template "search/search.html.ep".
+[Sat Sep 14 00:51:13 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep 14 00:51:13 2013] [debug] 200 OK (0.008683s, 115.168/s).
+[Sat Sep 14 00:51:41 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:51:46 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:51:46 2013] [debug] GET "/".
+[Sat Sep 14 00:51:46 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 00:51:46 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 00:51:46 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep 14 00:51:46 2013] [debug] 200 OK (0.029304s, 34.125/s).
+[Sat Sep 14 00:51:52 2013] [debug] POST "/".
+[Sat Sep 14 00:51:52 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Sat Sep 14 00:51:52 2013] [debug] Rendering template "search/search.html.ep".
+[Sat Sep 14 00:51:52 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep 14 00:51:52 2013] [debug] 200 OK (0.004613s, 216.779/s).
+[Sat Sep 14 00:52:19 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:52:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:52:23 2013] [debug] GET "/".
+[Sat Sep 14 00:52:23 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 00:52:23 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 00:52:23 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep 14 00:52:23 2013] [debug] 200 OK (0.019839s, 50.406/s).
+[Sat Sep 14 00:52:25 2013] [debug] POST "/".
+[Sat Sep 14 00:52:25 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Sat Sep 14 00:52:25 2013] [debug] Rendering template "search/search.html.ep".
+[Sat Sep 14 00:52:25 2013] [debug] Template "layouts/search.html.ep" not found.
+[Sat Sep 14 00:52:25 2013] [debug] 200 OK (0.006328s, 158.028/s).
+[Sat Sep 14 00:53:39 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:53:44 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:53:44 2013] [debug] GET "/".
+[Sat Sep 14 00:53:44 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 00:53:44 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 00:53:44 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep 14 00:53:44 2013] [debug] 200 OK (0.017439s, 57.343/s).
+[Sat Sep 14 00:53:46 2013] [debug] POST "/".
+[Sat Sep 14 00:53:46 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Sat Sep 14 00:53:46 2013] [debug] Rendering template "search/search.html.ep".
+[Sat Sep 14 00:53:46 2013] [debug] Template "layouts/search.html.ep" not found.
+[Sat Sep 14 00:53:46 2013] [debug] 200 OK (0.004139s, 241.604/s).
+[Sat Sep 14 00:53:54 2013] [debug] POST "/".
+[Sat Sep 14 00:53:54 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Sat Sep 14 00:53:54 2013] [debug] Rendering cached template "search/search.html.ep".
+[Sat Sep 14 00:53:54 2013] [debug] Template "layouts/search.html.ep" not found.
+[Sat Sep 14 00:53:54 2013] [debug] 200 OK (0.002982s, 335.345/s).
+[Sat Sep 14 00:54:43 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:54:49 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:54:49 2013] [debug] GET "/".
+[Sat Sep 14 00:54:49 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 00:54:49 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 00:54:49 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep 14 00:54:49 2013] [debug] 200 OK (0.020429s, 48.950/s).
+[Sat Sep 14 00:54:51 2013] [debug] POST "/".
+[Sat Sep 14 00:54:51 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Sat Sep 14 00:54:51 2013] [debug] Rendering template "search/search.html.ep".
+[Sat Sep 14 00:54:51 2013] [error] Bareword "message2" not allowed while "strict subs" in use at template search/search.html.ep line 3.
+1: % layout 'search';
+2: % title 'Форма поискового запроса';
+3: <center><h1><%= message2 %></h1></center>
+
+[Sat Sep 14 00:54:51 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep 14 00:54:51 2013] [debug] Template "exception.html.ep" not found.
+[Sat Sep 14 00:54:51 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:54:51 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:54:51 2013] [debug] 500 Internal Server Error (0.023579s, 42.411/s).
+[Sat Sep 14 00:57:28 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 00:57:37 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 00:57:37 2013] [debug] POST "/".
+[Sat Sep 14 00:57:37 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Sat Sep 14 00:57:37 2013] [debug] Rendering template "search/search.html.ep".
+[Sat Sep 14 00:57:37 2013] [error] Bareword "message" not allowed while "strict subs" in use at template search/search.html.ep line 3.
+1: % layout 'search';
+2: % title 'Форма поискового запроса';
+3: <center><h1><%= message %></h1></center>
+
+[Sat Sep 14 00:57:37 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep 14 00:57:37 2013] [debug] Template "exception.html.ep" not found.
+[Sat Sep 14 00:57:37 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:57:37 2013] [debug] Rendering inline template.
+[Sat Sep 14 00:57:37 2013] [debug] 500 Internal Server Error (0.036410s, 27.465/s).
+[Sat Sep 14 01:00:26 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 01:00:33 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 01:00:33 2013] [debug] GET "/".
+[Sat Sep 14 01:00:33 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 01:00:33 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 01:00:33 2013] [error] Bareword "msg" not allowed while "strict subs" in use at template search/default.html.ep line 8.
+3: <center><h1>Узлы</h1></center>
+4: <form action='<% url_for %>' method='post'>
+5:     <input type='text' name='q' placeholder='Что будем искать?'>
+6:     <input type='submit' value='Поехали!'>
+7: </form>
+8: <%= msg %>
+
+[Sat Sep 14 01:00:33 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep 14 01:00:33 2013] [debug] Template "exception.html.ep" not found.
+[Sat Sep 14 01:00:33 2013] [debug] Rendering inline template.
+[Sat Sep 14 01:00:33 2013] [debug] Rendering inline template.
+[Sat Sep 14 01:00:33 2013] [debug] 500 Internal Server Error (0.038173s, 26.197/s).
+[Sat Sep 14 01:02:59 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 01:03:01 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 01:03:01 2013] [debug] GET "/".
+[Sat Sep 14 01:03:01 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 01:03:01 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 01:03:01 2013] [error] Can't modify non-lvalue subroutine call in scalar assignment at template search/default.html.ep line 2, at EOF
+1: % layout 'default';
+2: % title=$msg;
+3: <center><h1>Узлы</h1></center>
+4: <form action='<% url_for %>' method='post'>
+5:     <input type='text' name='q' placeholder='Что будем искать?'>
+6:     <input type='submit' value='Поехали!'>
+7: </form>
+
+[Sat Sep 14 01:03:01 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep 14 01:03:01 2013] [debug] Template "exception.html.ep" not found.
+[Sat Sep 14 01:03:01 2013] [debug] Rendering inline template.
+[Sat Sep 14 01:03:01 2013] [debug] Rendering inline template.
+[Sat Sep 14 01:03:01 2013] [debug] 500 Internal Server Error (0.037414s, 26.728/s).
+[Sat Sep 14 01:12:23 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 01:12:32 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 01:12:32 2013] [debug] GET "/".
+[Sat Sep 14 01:12:32 2013] [error] Global symbol "$self" requires explicit package name at /home/vrag/perl/dostup/script/../lib/Dostup/Search.pm line 12.
+syntax error at /home/vrag/perl/dostup/script/../lib/Dostup/Search.pm line 18, near "(
+#    url_for => '/',
+#    msg=>'hello world');
+#}
+
+sub search
+"
+Global symbol "$self" requires explicit package name at /home/vrag/perl/dostup/script/../lib/Dostup/Search.pm line 20.
+syntax error at /home/vrag/perl/dostup/script/../lib/Dostup/Search.pm line 22, near "}"
+Compilation failed in require at (eval 233) line 1.
+
+[Sat Sep 14 01:12:32 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep 14 01:12:32 2013] [debug] Template "exception.html.ep" not found.
+[Sat Sep 14 01:12:32 2013] [debug] Rendering inline template.
+[Sat Sep 14 01:12:32 2013] [debug] Rendering inline template.
+[Sat Sep 14 01:12:32 2013] [debug] 500 Internal Server Error (0.027258s, 36.686/s).
+[Sat Sep 14 01:13:21 2013] [info] Listening at "http://*:3000".
+[Sat Sep 14 01:13:25 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep 14 01:13:25 2013] [debug] GET "/".
+[Sat Sep 14 01:13:25 2013] [debug] Routing to controller "Dostup::Search" and action "default".
+[Sat Sep 14 01:13:25 2013] [debug] Action not found in controller.
+[Sat Sep 14 01:13:25 2013] [debug] Rendering template "search/default.html.ep".
+[Sat Sep 14 01:13:25 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep 14 01:13:25 2013] [debug] 200 OK (0.020568s, 48.619/s).
+[Sat Sep 14 01:13:30 2013] [debug] POST "/".
+[Sat Sep 14 01:13:30 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Sat Sep 14 01:13:30 2013] [debug] Rendering template "search/search.html.ep".
+[Sat Sep 14 01:13:30 2013] [debug] Template "layouts/search.html.ep" not found.
+[Sat Sep 14 01:13:30 2013] [debug] 200 OK (0.016905s, 59.154/s).

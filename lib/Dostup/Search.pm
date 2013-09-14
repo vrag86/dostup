@@ -1,14 +1,25 @@
 package Dostup::Search;
 use Mojo::Base 'Mojolicious::Controller';
+#use DBI;
+#Подключаемся к БД
+
+
 
 # This action will render a template
-sub welcome {
-  my $self = shift;
-
+#sub default {
+#  my $self = shift;
   # Render template "search/example.html.ep" with message
-  $self->render(
-    url_for => 'Welcome to the Mojolicious real-time web framework!',
-    message2=>'Eto klassnii framework');
+#  $self->render(
+#    url_for => '/',
+#    msg=>'hello world');
+#}
+
+sub search
+{ 
+  my $self=shift;
+  my $txt=$self->param('q');
+  $self->render(message=>$txt);  
 }
+
 
 1;

@@ -5,4 +5,8 @@
     <input type='text' size="60" name='address' placeholder='Введите адрес узла'>
     <input type='submit' value='Поиск!'>
 </form>
-<%= $message %>  
+% my @tp=shift;
+% foreach my $t(@tp)
+%{
+<%= $t %><br>
+%}  

@@ -590,3 +590,33 @@ Compilation failed in require at (eval 246) line 1.
 [Sat Sep 14 14:38:03 2013] [debug] Rendering cached template search/search.html.ep.
 [Sat Sep 14 14:38:03 2013] [debug] Template "layouts/search.html.ep" not found.
 [Sat Sep 14 14:38:03 2013] [debug] 200 OK (0.002991s, 334.336/s).
+[Sun Sep 15 14:31:12 2013] [info] Listening at "http://*:3000".
+[Sun Sep 15 14:31:17 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Sep 15 14:31:17 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Sun Sep 15 14:31:17 2013] [error] install_driver(Oracle) failed: Can't locate DBD/Oracle.pm in @INC (@INC contains: /home/vrag/perl/dostup/script/../lib /usr/local/bin/../lib /home/vrag/perl5/lib/perl5/x86_64-linux-thread-multi /home/vrag/perl5/lib/perl5 /home/vrag/perl5/lib/perl5/x86_64-linux-thread-multi /home/vrag/perl5/lib/perl5 /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at (eval 247) line 3.
+Perhaps the DBD::Oracle perl module hasn't been fully installed,
+or perhaps the capitalisation of 'Oracle' isn't right.
+Available drivers: DBM, ExampleP, File, Gofer, Proxy, Sponge, mysql.
+ at /home/vrag/perl/dostup/script/../lib/Dostup/Search.pm line 9
+Compilation failed in require at (eval 246) line 1.
+
+[Sun Sep 15 14:31:17 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Sep 15 14:31:17 2013] [debug] Template "exception.html.ep" not found.
+[Sun Sep 15 14:31:17 2013] [debug] Rendering inline template.
+[Sun Sep 15 14:31:17 2013] [debug] Rendering inline template.
+[Sun Sep 15 14:31:17 2013] [debug] 500 Internal Server Error (0.052498s, 19.048/s).
+[Tue Sep 17 22:37:07 2013] [info] Listening at "http://*:3000".
+[Tue Sep 17 22:37:22 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 17 22:37:22 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Tue Sep 17 22:37:23 2013] [error] install_driver(Oracle) failed: Can't locate DBD/Oracle.pm in @INC (@INC contains: /home/vrag/perl/dostup/script/../lib /usr/local/bin/../lib /home/vrag/perl5/lib/perl5/x86_64-linux-thread-multi /home/vrag/perl5/lib/perl5 /home/vrag/perl5/lib/perl5/x86_64-linux-thread-multi /home/vrag/perl5/lib/perl5 /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at (eval 247) line 3.
+Perhaps the DBD::Oracle perl module hasn't been fully installed,
+or perhaps the capitalisation of 'Oracle' isn't right.
+Available drivers: DBM, ExampleP, File, Gofer, Proxy, Sponge, mysql.
+ at /home/vrag/perl/dostup/script/../lib/Dostup/Search.pm line 9
+Compilation failed in require at (eval 246) line 1.
+
+[Tue Sep 17 22:37:23 2013] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 17 22:37:23 2013] [debug] Template "exception.html.ep" not found.
+[Tue Sep 17 22:37:23 2013] [debug] Rendering inline template.
+[Tue Sep 17 22:37:23 2013] [debug] Rendering inline template.
+[Tue Sep 17 22:37:23 2013] [debug] 500 Internal Server Error (0.070895s, 14.105/s).

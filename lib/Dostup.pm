@@ -15,6 +15,7 @@ sub startup {
 #  $r->get('/')->to('search#default');
   $r->route('/')->via('post')->to('search#search');
   $r->route('/')->via('get')->to('search#search');
+  $r->route('show')->via('get')->to('show#show');
 }
 
 1;

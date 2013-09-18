@@ -763,3 +763,606 @@ Compilation failed in require at (eval 246) line 1.
 [Wed Sep 18 01:01:49 2013] [debug] Rendering template "search/search.html.ep".
 [Wed Sep 18 01:01:49 2013] [debug] Template "layouts/search.html.ep" not found.
 [Wed Sep 18 01:01:49 2013] [debug] 200 OK (0.062094s, 16.105/s).
+[Wed Sep 18 21:50:18 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 21:50:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 21:50:23 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 21:50:23 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 21:50:23 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 21:50:23 2013] [error] Global symbol "$tp" requires explicit package name at template search/search.html.ep line 9.
+4: <form action='<% url_for %>' method='post'>
+5:     <input type='text' size="60" name='address' placeholder='Введите адрес узла'>
+6:     <input type='submit' value='Поиск!'>
+7: </form>
+8: 
+9: % foreach my $t(@$tp)
+10: %{
+11: <%= $t %><br>
+12: %}  
+
+[Wed Sep 18 21:50:23 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 21:50:23 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 21:50:23 2013] [debug] Rendering inline template.
+[Wed Sep 18 21:50:23 2013] [debug] Rendering inline template.
+[Wed Sep 18 21:50:23 2013] [debug] 500 Internal Server Error (0.110275s, 9.068/s).
+[Wed Sep 18 21:50:45 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 21:50:48 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 21:50:48 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 21:50:48 2013] [error] Global symbol "$tp" requires explicit package name at /home/vrag/perl/dostup/script/../lib/Dostup/Search.pm line 32.
+Compilation failed in require at (eval 246) line 1.
+
+[Wed Sep 18 21:50:48 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 21:50:48 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 21:50:48 2013] [debug] Rendering inline template.
+[Wed Sep 18 21:50:48 2013] [debug] Rendering inline template.
+[Wed Sep 18 21:50:48 2013] [debug] 500 Internal Server Error (0.048925s, 20.439/s).
+[Wed Sep 18 21:57:56 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 21:58:01 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 21:58:01 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 21:58:01 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 21:58:01 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 21:58:01 2013] [error] Global symbol "$tp" requires explicit package name at template search/search.html.ep line 9.
+4: <form action='<% url_for %>' method='post'>
+5:     <input type='text' size="60" name='address' placeholder='Введите адрес узла'>
+6:     <input type='submit' value='Поиск!'>
+7: </form>
+8: 
+9: % foreach my $t(@$tp)
+10: %{
+11: <%= $t %><br>
+12: %}  
+
+[Wed Sep 18 21:58:01 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 21:58:01 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 21:58:01 2013] [debug] Rendering inline template.
+[Wed Sep 18 21:58:01 2013] [debug] Rendering inline template.
+[Wed Sep 18 21:58:01 2013] [debug] 500 Internal Server Error (0.091479s, 10.931/s).
+[Wed Sep 18 21:59:16 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 21:59:22 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 21:59:22 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 21:59:22 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 21:59:22 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 21:59:22 2013] [error] Global symbol "$tp" requires explicit package name at template search/search.html.ep line 9.
+4: <form action='<% url_for %>' method='post'>
+5:     <input type='text' size="60" name='address' placeholder='Введите адрес узла'>
+6:     <input type='submit' value='Поиск!'>
+7: </form>
+8: 
+9: % foreach my $t(@$tp)
+10: %{
+11: <%= $t %><br>
+12: %}  
+
+[Wed Sep 18 21:59:22 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 21:59:22 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 21:59:22 2013] [debug] Rendering inline template.
+[Wed Sep 18 21:59:22 2013] [debug] Rendering inline template.
+[Wed Sep 18 21:59:22 2013] [debug] 500 Internal Server Error (0.094404s, 10.593/s).
+[Wed Sep 18 22:06:19 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:06:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:06:23 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:06:23 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:06:23 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:06:23 2013] [error] Global symbol "$tp" requires explicit package name at template search/search.html.ep line 9.
+4: <form action='<% url_for %>' method='post'>
+5:     <input type='text' size="60" name='address' placeholder='Введите адрес узла'>
+6:     <input type='submit' value='Поиск!'>
+7: </form>
+8: 
+9: % for my $t(@$tp)
+10: %{
+11: <%= $t %><br>
+12: %}  
+
+[Wed Sep 18 22:06:23 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 22:06:23 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 22:06:23 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:06:23 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:06:23 2013] [debug] 500 Internal Server Error (0.114053s, 8.768/s).
+[Wed Sep 18 22:06:59 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:07:02 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:07:02 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:07:02 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:07:02 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:07:02 2013] [error] Global symbol "$tp" requires explicit package name at template search/search.html.ep line 9.
+4: <form action='<% url_for %>' method='post'>
+5:     <input type='text' size="60" name='address' placeholder='Введите адрес узла'>
+6:     <input type='submit' value='Поиск!'>
+7: </form>
+8: 
+9: % for my $t(@$tp)
+10: %{
+11: <%= $t %><br>
+12: %}  
+
+[Wed Sep 18 22:07:02 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 22:07:02 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 22:07:02 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:07:02 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:07:02 2013] [debug] 500 Internal Server Error (0.093831s, 10.657/s).
+[Wed Sep 18 22:07:32 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:07:35 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:07:35 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:07:35 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:07:35 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:07:35 2013] [error] Can't use string ("") as an ARRAY ref while "strict refs" in use at template search/search.html.ep line 9.
+4: <form action='<% url_for %>' method='post'>
+5:     <input type='text' size="60" name='address' placeholder='Введите адрес узла'>
+6:     <input type='submit' value='Поиск!'>
+7: </form>
+8: 
+9: % for my $t(@$tp)
+10: %{
+11: <%= $t %><br>
+12: %}  
+
+[Wed Sep 18 22:07:35 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 22:07:35 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 22:07:35 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:07:35 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:07:35 2013] [debug] 500 Internal Server Error (0.092950s, 10.758/s).
+[Wed Sep 18 22:08:31 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:08:33 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:08:33 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:08:33 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:08:33 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:08:33 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:08:33 2013] [debug] 200 OK (0.066297s, 15.084/s).
+[Wed Sep 18 22:08:37 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:08:37 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:08:37 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 22:08:37 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:08:37 2013] [debug] 200 OK (0.005447s, 183.587/s).
+[Wed Sep 18 22:09:04 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:09:07 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:09:07 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:09:07 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:09:07 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:09:07 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:09:07 2013] [debug] 200 OK (0.059468s, 16.816/s).
+[Wed Sep 18 22:09:10 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:09:10 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:09:10 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 22:09:10 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:09:10 2013] [debug] 200 OK (0.004802s, 208.247/s).
+[Wed Sep 18 22:16:29 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:16:32 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:16:32 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:16:32 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:16:32 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:16:32 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:16:32 2013] [debug] 200 OK (0.066364s, 15.068/s).
+[Wed Sep 18 22:32:53 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:32:57 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:32:57 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:32:57 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:32:57 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:32:57 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:32:57 2013] [debug] 200 OK (0.066663s, 15.001/s).
+[Wed Sep 18 22:33:05 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:33:05 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:33:05 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 22:33:05 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:33:05 2013] [debug] 200 OK (0.005803s, 172.325/s).
+[Wed Sep 18 22:33:07 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:33:07 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:33:07 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 22:33:07 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:33:07 2013] [debug] 200 OK (0.007598s, 131.614/s).
+[Wed Sep 18 22:34:19 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:34:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:34:23 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:34:23 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:34:23 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:34:23 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:34:23 2013] [debug] 200 OK (0.063452s, 15.760/s).
+[Wed Sep 18 22:34:24 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:34:24 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:34:24 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 22:34:24 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:34:24 2013] [debug] 200 OK (0.004837s, 206.740/s).
+[Wed Sep 18 22:34:25 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:34:25 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:34:25 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 22:34:25 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:34:25 2013] [debug] 200 OK (0.004355s, 229.621/s).
+[Wed Sep 18 22:34:30 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:34:30 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:34:30 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 22:34:30 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:34:30 2013] [debug] 200 OK (0.008516s, 117.426/s).
+[Wed Sep 18 22:34:38 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:34:38 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:34:38 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 22:34:38 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:34:38 2013] [debug] 200 OK (0.006265s, 159.617/s).
+[Wed Sep 18 22:35:52 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:35:54 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:35:54 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:35:54 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:35:54 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:35:54 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:35:54 2013] [debug] 200 OK (0.064349s, 15.540/s).
+[Wed Sep 18 22:35:57 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:35:57 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:35:57 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 22:35:57 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:35:57 2013] [debug] 200 OK (0.007355s, 135.962/s).
+[Wed Sep 18 22:36:17 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:36:18 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:36:18 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:36:18 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:36:18 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:36:18 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:36:18 2013] [debug] 200 OK (0.076227s, 13.119/s).
+[Wed Sep 18 22:36:20 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:36:20 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:36:20 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 22:36:20 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:36:20 2013] [debug] 200 OK (0.005858s, 170.707/s).
+[Wed Sep 18 22:38:16 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:38:21 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:38:21 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:38:21 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:38:21 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:38:21 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:38:21 2013] [debug] 200 OK (0.065237s, 15.329/s).
+[Wed Sep 18 22:41:24 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:41:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:41:28 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:41:28 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:41:28 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:41:28 2013] [error] syntax error at template search/search.html.ep line 12, near "$t  
+$_M "
+Global symbol "$name" requires explicit package name at template search/search.html.ep line 12.
+7: </form>
+8: 
+9: % foreach my $t(@$tp)
+10: %{
+11: % my ($name, $id)=split /;;;/, $t 
+12:   <a href=<%= $name %>><%= $id %><br>
+13: %}  
+
+[Wed Sep 18 22:41:28 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 22:41:28 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 22:41:28 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:41:28 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:41:28 2013] [debug] 500 Internal Server Error (0.095440s, 10.478/s).
+[Wed Sep 18 22:43:41 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:43:45 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:43:45 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:43:45 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:43:45 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:43:45 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:43:45 2013] [debug] 200 OK (0.065141s, 15.351/s).
+[Wed Sep 18 22:43:49 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:43:49 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:43:49 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 22:43:49 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:43:49 2013] [debug] 200 OK (0.006233s, 160.436/s).
+[Wed Sep 18 22:44:30 2013] [debug] GET /kashir13b (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:44:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Wed Sep 18 22:44:30 2013] [debug] Template "not_found.html.ep" not found.
+[Wed Sep 18 22:44:30 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:44:30 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:44:30 2013] [debug] 404 Not Found (0.024627s, 40.606/s).
+[Wed Sep 18 22:45:27 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:45:59 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:46:03 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:46:03 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:46:03 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:46:03 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:46:03 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:46:03 2013] [debug] 200 OK (0.063235s, 15.814/s).
+[Wed Sep 18 22:46:57 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:47:02 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:47:02 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:47:02 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:47:02 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:47:02 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:47:02 2013] [debug] 200 OK (0.062599s, 15.975/s).
+[Wed Sep 18 22:47:07 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:47:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Wed Sep 18 22:47:07 2013] [debug] Template "not_found.html.ep" not found.
+[Wed Sep 18 22:47:07 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:47:07 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:47:07 2013] [debug] 404 Not Found (0.025728s, 38.868/s).
+[Wed Sep 18 22:48:03 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:48:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:48:11 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:48:11 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:48:11 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:48:11 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:48:11 2013] [debug] 200 OK (0.062481s, 16.005/s).
+[Wed Sep 18 22:48:43 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:48:43 2013] [debug] Template "not_found.development.html.ep" not found.
+[Wed Sep 18 22:48:43 2013] [debug] Template "not_found.html.ep" not found.
+[Wed Sep 18 22:48:43 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:48:43 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:48:43 2013] [debug] 404 Not Found (0.022771s, 43.916/s).
+[Wed Sep 18 22:48:47 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:48:47 2013] [debug] Template "not_found.development.html.ep" not found.
+[Wed Sep 18 22:48:47 2013] [debug] Template "not_found.html.ep" not found.
+[Wed Sep 18 22:48:47 2013] [debug] Rendering cached inline template.
+[Wed Sep 18 22:48:47 2013] [debug] Rendering cached inline template.
+[Wed Sep 18 22:48:47 2013] [debug] 404 Not Found (0.009540s, 104.822/s).
+[Wed Sep 18 22:53:39 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:53:43 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:53:43 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:53:43 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:53:43 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:53:43 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:53:43 2013] [debug] 200 OK (0.061813s, 16.178/s).
+[Wed Sep 18 22:53:44 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:53:44 2013] [debug] Class "Dostup::Show" is not a controller.
+[Wed Sep 18 22:53:44 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 22:53:44 2013] [error] Global symbol "$id" requires explicit package name at template show/show.html.ep line 3.
+1: % layout 'show';
+2: % title 'Система доступ';
+3: <h1><%= $id %>  
+
+[Wed Sep 18 22:53:44 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 22:53:44 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 22:53:44 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:53:44 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:53:44 2013] [debug] 500 Internal Server Error (0.046786s, 21.374/s).
+[Wed Sep 18 22:56:43 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 22:56:49 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 22:56:49 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:56:49 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:56:49 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 22:56:49 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:56:49 2013] [debug] 200 OK (0.061545s, 16.248/s).
+[Wed Sep 18 22:56:53 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:56:53 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 22:56:53 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 22:56:53 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 22:56:53 2013] [debug] 200 OK (0.006772s, 147.667/s).
+[Wed Sep 18 22:56:54 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 22:56:54 2013] [debug] Class "Dostup::Show" is not a controller.
+[Wed Sep 18 22:56:54 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 22:56:54 2013] [error] Bareword "id" not allowed while "strict subs" in use at template show/show.html.ep line 3.
+1: % layout 'show';
+2: % title 'Система доступ';
+3: <h1><%= id %>  
+
+[Wed Sep 18 22:56:54 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 22:56:54 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 22:56:54 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:56:54 2013] [debug] Rendering inline template.
+[Wed Sep 18 22:56:54 2013] [debug] 500 Internal Server Error (0.038403s, 26.040/s).
+[Wed Sep 18 23:01:20 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:01:26 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:01:26 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:01:26 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 23:01:26 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 23:01:26 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 23:01:26 2013] [debug] 200 OK (0.062735s, 15.940/s).
+[Wed Sep 18 23:01:31 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:01:31 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 23:01:31 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 23:01:31 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 23:01:31 2013] [debug] 200 OK (0.006734s, 148.500/s).
+[Wed Sep 18 23:01:33 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:01:33 2013] [debug] Class "Dostup::Show" is not a controller.
+[Wed Sep 18 23:01:33 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:01:33 2013] [error] Global symbol "$id" requires explicit package name at template show/show.html.ep line 3.
+1: % layout 'show';
+2: % title 'Система доступ';
+3: Number of point <%= $id %>  
+
+[Wed Sep 18 23:01:33 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 23:01:33 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 23:01:33 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:01:33 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:01:33 2013] [debug] 500 Internal Server Error (0.039353s, 25.411/s).
+[Wed Sep 18 23:02:18 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:02:21 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:02:21 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:02:21 2013] [debug] Class "Dostup::Show" is not a controller.
+[Wed Sep 18 23:02:21 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:02:21 2013] [error] Global symbol "$id" requires explicit package name at template show/show.html.ep line 3.
+1: % layout 'show';
+2: % title 'Система доступ';
+3: Number of point <%= $id %>  
+
+[Wed Sep 18 23:02:21 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 23:02:21 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 23:02:21 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:02:21 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:02:21 2013] [debug] 500 Internal Server Error (0.064871s, 15.415/s).
+[Wed Sep 18 23:05:42 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:05:46 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:05:46 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:05:46 2013] [debug] Controller "show" does not exist.
+[Wed Sep 18 23:05:46 2013] [debug] Template "show.html.ep" not found.
+[Wed Sep 18 23:05:46 2013] [debug] Template "not_found.development.html.ep" not found.
+[Wed Sep 18 23:05:46 2013] [debug] Template "not_found.html.ep" not found.
+[Wed Sep 18 23:05:46 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:05:46 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:05:46 2013] [debug] 404 Not Found (0.027049s, 36.970/s).
+[Wed Sep 18 23:06:53 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:06:54 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:06:54 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:06:54 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Wed Sep 18 23:06:54 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:06:54 2013] [debug] Template "layouts/show.html.ep" not found.
+[Wed Sep 18 23:06:54 2013] [debug] 200 OK (0.035084s, 28.503/s).
+[Wed Sep 18 23:13:58 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:14:02 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:14:02 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:14:02 2013] [error] Can't locate object method "ÐÐºÐ»ÑÑÐ°ÐµÐ¼" via package "UTF8" (perhaps you forgot to load "UTF8"?) at /home/vrag/perl/dostup/script/../lib/Dostup/Show.pm line 14.
+Compilation failed in require at (eval 246) line 1.
+
+[Wed Sep 18 23:14:02 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 23:14:02 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 23:14:02 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:14:02 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:14:02 2013] [debug] 500 Internal Server Error (0.089363s, 11.190/s).
+[Wed Sep 18 23:14:25 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:14:27 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:14:27 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:14:27 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Wed Sep 18 23:14:27 2013] [error] Undefined subroutine &Dostup::Show::get_info called at /usr/local/share/perl5/Mojolicious/Routes.pm line 176
+
+[Wed Sep 18 23:14:27 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 23:14:27 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 23:14:27 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:14:27 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:14:27 2013] [debug] 500 Internal Server Error (0.075123s, 13.312/s).
+[Wed Sep 18 23:14:46 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:14:48 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:14:48 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:14:48 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Wed Sep 18 23:14:48 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:14:48 2013] [debug] Template "layouts/show.html.ep" not found.
+[Wed Sep 18 23:14:48 2013] [debug] 200 OK (0.064157s, 15.587/s).
+[Wed Sep 18 23:15:40 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:15:42 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:15:42 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:15:42 2013] [error] Global symbol "$info" requires explicit package name at /home/vrag/perl/dostup/script/../lib/Dostup/Show.pm line 30.
+Compilation failed in require at (eval 246) line 1.
+
+[Wed Sep 18 23:15:42 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 23:15:42 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 23:15:42 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:15:42 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:15:42 2013] [debug] 500 Internal Server Error (0.048983s, 20.415/s).
+[Wed Sep 18 23:16:56 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:16:59 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:16:59 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:16:59 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Wed Sep 18 23:16:59 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:16:59 2013] [debug] Template "layouts/show.html.ep" not found.
+[Wed Sep 18 23:16:59 2013] [debug] 200 OK (0.065663s, 15.229/s).
+[Wed Sep 18 23:17:23 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:17:25 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:17:25 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:17:25 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Wed Sep 18 23:17:25 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:17:25 2013] [debug] Template "layouts/show.html.ep" not found.
+[Wed Sep 18 23:17:25 2013] [debug] 200 OK (0.085535s, 11.691/s).
+[Wed Sep 18 23:22:31 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:22:35 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:22:35 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:22:35 2013] [error] Global symbol "$info" requires explicit package name at /home/vrag/perl/dostup/script/../lib/Dostup/Show.pm line 41.
+Compilation failed in require at (eval 246) line 1.
+
+[Wed Sep 18 23:22:35 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 23:22:35 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 23:22:35 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:22:35 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:22:35 2013] [debug] 500 Internal Server Error (0.049794s, 20.083/s).
+[Wed Sep 18 23:25:13 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:25:15 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:25:15 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:25:15 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Wed Sep 18 23:25:15 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:25:15 2013] [debug] Template "layouts/show.html.ep" not found.
+[Wed Sep 18 23:25:15 2013] [debug] 200 OK (0.063961s, 15.635/s).
+[Wed Sep 18 23:25:47 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:25:48 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:25:48 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:25:48 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Wed Sep 18 23:25:48 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:25:48 2013] [debug] Template "layouts/show.html.ep" not found.
+[Wed Sep 18 23:25:48 2013] [debug] 200 OK (0.058908s, 16.976/s).
+[Wed Sep 18 23:28:11 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:28:18 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:28:18 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:28:18 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 23:28:18 2013] [debug] Rendering template "search/search.html.ep".
+[Wed Sep 18 23:28:18 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 23:28:18 2013] [debug] 200 OK (0.064070s, 15.608/s).
+[Wed Sep 18 23:28:22 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:28:22 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Wed Sep 18 23:28:22 2013] [debug] Rendering cached template search/search.html.ep.
+[Wed Sep 18 23:28:22 2013] [debug] Template "layouts/search.html.ep" not found.
+[Wed Sep 18 23:28:22 2013] [debug] 200 OK (0.004223s, 236.798/s).
+[Wed Sep 18 23:28:23 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:28:23 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Wed Sep 18 23:28:23 2013] [debug] Template "id.html.ep" not found.
+[Wed Sep 18 23:28:23 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:28:23 2013] [error] Global symbol "%id" requires explicit package name at template show/show.html.ep line 3.
+Global symbol "%id" requires explicit package name at template show/show.html.ep line 4.
+1: % layout 'show';
+2: % title 'Система доступ';
+3: Адрес <%=$id{Address} %> <br>
+4: Доступ <%= $id{comments} %>  
+
+[Wed Sep 18 23:28:23 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 23:28:23 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 23:28:23 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:28:24 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:28:24 2013] [debug] 500 Internal Server Error (0.047418s, 21.089/s).
+[Wed Sep 18 23:28:59 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:29:01 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:29:01 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:29:01 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Wed Sep 18 23:29:01 2013] [debug] Template "id.html.ep" not found.
+[Wed Sep 18 23:29:01 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:29:01 2013] [error] Global symbol "%id" requires explicit package name at template show/show.html.ep line 3.
+Global symbol "%id" requires explicit package name at template show/show.html.ep line 4.
+1: % layout 'show';
+2: % title 'Система доступ';
+3: Адрес <%= $id{Address} %> <br>
+4: Доступ <%= $id{comments} %>  
+
+[Wed Sep 18 23:29:01 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 23:29:01 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 23:29:01 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:29:01 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:29:01 2013] [debug] 500 Internal Server Error (0.095869s, 10.431/s).
+[Wed Sep 18 23:29:25 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:29:26 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:29:26 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:29:26 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Wed Sep 18 23:29:26 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:29:26 2013] [error] Global symbol "%id" requires explicit package name at template show/show.html.ep line 3.
+Global symbol "%id" requires explicit package name at template show/show.html.ep line 4.
+1: % layout 'show';
+2: % title 'Система доступ';
+3: Адрес <%= $id{Address} %> <br>
+4: Доступ <%= $id{comments} %>  
+
+[Wed Sep 18 23:29:26 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 23:29:26 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 23:29:26 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:29:26 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:29:27 2013] [debug] 500 Internal Server Error (0.094145s, 10.622/s).
+[Wed Sep 18 23:31:15 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:31:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:31:16 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:31:16 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Wed Sep 18 23:31:16 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:31:16 2013] [error] Global symbol "%info" requires explicit package name at template show/show.html.ep line 3.
+Global symbol "%info" requires explicit package name at template show/show.html.ep line 4.
+1: % layout 'show';
+2: % title 'Система доступ';
+3: Адрес <%= $info{Address} %> <br>
+4: Доступ <%= $info{comments} %>  
+
+[Wed Sep 18 23:31:16 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 23:31:16 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 23:31:16 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:31:16 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:31:16 2013] [debug] 500 Internal Server Error (0.093187s, 10.731/s).
+[Wed Sep 18 23:31:56 2013] [info] Listening at "http://*:3000".
+[Wed Sep 18 23:31:56 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 18 23:31:56 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36).
+[Wed Sep 18 23:31:57 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Wed Sep 18 23:31:57 2013] [debug] Rendering template "show/show.html.ep".
+[Wed Sep 18 23:31:57 2013] [error] syntax error at template show/show.html.ep line 3, near "$info{Address"
+syntax error at template show/show.html.ep line 4, near "$info{comments"
+Global symbol "$_M" requires explicit package name at template show/show.html.ep line 4.
+Global symbol "$_M" requires explicit package name at template show/show.html.ep line 4.
+syntax error at template show/show.html.ep line 4, near "$_M }"
+1: % layout 'show';
+2: % title 'Система доступ';
+3: Адрес <%= %$info{Address} %> <br>
+4: Доступ <%= %$info{comments} %>  
+
+[Wed Sep 18 23:31:57 2013] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 18 23:31:57 2013] [debug] Template "exception.html.ep" not found.
+[Wed Sep 18 23:31:57 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:31:57 2013] [debug] Rendering inline template.
+[Wed Sep 18 23:31:57 2013] [debug] 500 Internal Server Error (0.092799s, 10.776/s).

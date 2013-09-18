@@ -5,8 +5,9 @@
     <input type='text' size="60" name='address' placeholder='Введите адрес узла'>
     <input type='submit' value='Поиск!'>
 </form>
-% my @tp=shift;
-% foreach my $t(@tp)
+
+% foreach my $t(@$tp)
 %{
-<%= $t %><br>
+% my ($name, $id)=split /;;;/, $t; 
+  <a href=show?id=<%= $id %>><%= $name %><br>
 %}  

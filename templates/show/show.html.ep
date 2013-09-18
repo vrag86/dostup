@@ -1,0 +1,4 @@
+% layout 'show';
+% title 'Система доступ';
+Адрес <%= $info{Address} %> <br>
+Доступ <%= $info{comments} %>  

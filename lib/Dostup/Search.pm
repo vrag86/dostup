@@ -26,15 +26,10 @@ sub search
 { 
   my $self=shift;
   my $address=$self->param('address');
-  if (defined($address))
-  {
-    my @tp=&search_tp($address);
-    $self->render(tp=>\@tp);  
-  }
-  else
-  {
-   $self->render(message=>'');
-  }
+  my @tp;
+  @tp=&search_tp($address) if length($address)>0;
+  $self->render(tp=>\@tp); 
+ 
 }
 
 
@@ -44,11 +39,11 @@ sub search_tp
  my $address=shift;
     $address='%'.$address.'%';
  my @tp;
- my $query="select site_name from info where upper(Address) like upper('$address')";   #Изменить на site_code
+ my $query="select Address, site_code from info where upper(Address) like upper('$address')";   #Изменить на site_code
  my $sth=$dbh->prepare($query); $sth->execute();
- while (my $u=($sth->fetchrow_array))
+ while (my ($name, $id)=$sth->fetchrow_array)
  {
-  push @tp, $u;
+  push @tp, $name.';;;'.$id;
  }
  return @tp;
 }

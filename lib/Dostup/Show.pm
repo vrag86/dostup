@@ -41,6 +41,8 @@ sub get_info
  my ($Address, $comments)=$sth->fetchrow_array;
  $info{Address}=$Address;
  $info{comments}=$comments;
+# push @info, $Address;
+# push @info ,$comments;
  return %info;
 }
 

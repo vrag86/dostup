@@ -1475,3 +1475,180 @@ Global symbol "@info" requires explicit package name at template show/show.html.
 [Tue Sep 24 00:25:38 2013] [debug] Rendering cached template show/show.html.ep.
 [Tue Sep 24 00:25:38 2013] [debug] Template "layouts/show.html.ep" not found.
 [Tue Sep 24 00:25:38 2013] [debug] 200 OK (0.003250s, 307.692/s).
+[Thu Sep 26 23:18:42 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:18:46 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:18:46 2013] [debug] GET / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:18:46 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Thu Sep 26 23:18:46 2013] [debug] Rendering template "search/search.html.ep".
+[Thu Sep 26 23:18:46 2013] [debug] Template "layouts/search.html.ep" not found.
+[Thu Sep 26 23:18:46 2013] [debug] 200 OK (0.086951s, 11.501/s).
+[Thu Sep 26 23:18:52 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:18:52 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Thu Sep 26 23:18:52 2013] [debug] Rendering cached template search/search.html.ep.
+[Thu Sep 26 23:18:52 2013] [debug] Template "layouts/search.html.ep" not found.
+[Thu Sep 26 23:18:52 2013] [debug] 200 OK (0.004850s, 206.186/s).
+[Thu Sep 26 23:18:57 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:18:57 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Thu Sep 26 23:18:57 2013] [debug] Rendering cached template search/search.html.ep.
+[Thu Sep 26 23:18:57 2013] [debug] Template "layouts/search.html.ep" not found.
+[Thu Sep 26 23:18:57 2013] [debug] 200 OK (0.005710s, 175.131/s).
+[Thu Sep 26 23:19:00 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:19:00 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Thu Sep 26 23:19:00 2013] [debug] Rendering cached template search/search.html.ep.
+[Thu Sep 26 23:19:00 2013] [debug] Template "layouts/search.html.ep" not found.
+[Thu Sep 26 23:19:00 2013] [debug] 200 OK (0.007066s, 141.523/s).
+[Thu Sep 26 23:19:03 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:19:03 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:19:03 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:19:03 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:19:03 2013] [debug] 200 OK (0.025478s, 39.250/s).
+[Thu Sep 26 23:37:35 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:37:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:37:38 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:37:38 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:37:38 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:37:38 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:37:38 2013] [debug] 200 OK (0.065444s, 15.280/s).
+[Thu Sep 26 23:38:07 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:38:08 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:38:08 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:38:08 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:38:08 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:38:08 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:38:08 2013] [debug] 200 OK (0.080900s, 12.361/s).
+[Thu Sep 26 23:39:15 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:39:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:39:16 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:39:16 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:39:16 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:39:16 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:39:16 2013] [debug] 200 OK (0.061232s, 16.331/s).
+[Thu Sep 26 23:39:35 2013] [debug] POST / (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:39:35 2013] [debug] Routing to controller "Dostup::Search" and action "search".
+[Thu Sep 26 23:39:35 2013] [debug] Rendering template "search/search.html.ep".
+[Thu Sep 26 23:39:35 2013] [debug] Template "layouts/search.html.ep" not found.
+[Thu Sep 26 23:39:35 2013] [debug] 200 OK (0.017689s, 56.532/s).
+[Thu Sep 26 23:39:36 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:39:36 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:39:36 2013] [debug] Rendering cached template show/show.html.ep.
+[Thu Sep 26 23:39:36 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:39:36 2013] [debug] 200 OK (0.002985s, 335.008/s).
+[Thu Sep 26 23:42:34 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:42:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:42:38 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:42:38 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:42:38 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:42:38 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:42:38 2013] [debug] 200 OK (0.062165s, 16.086/s).
+[Thu Sep 26 23:42:54 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:42:55 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:42:55 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:42:55 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:42:55 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:42:55 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:42:55 2013] [debug] 200 OK (0.060464s, 16.539/s).
+[Thu Sep 26 23:42:56 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:42:56 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:42:56 2013] [debug] Rendering cached template show/show.html.ep.
+[Thu Sep 26 23:42:56 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:42:56 2013] [debug] 200 OK (0.002956s, 338.295/s).
+[Thu Sep 26 23:42:56 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:42:56 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:42:56 2013] [debug] Rendering cached template show/show.html.ep.
+[Thu Sep 26 23:42:56 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:42:56 2013] [debug] 200 OK (0.002961s, 337.724/s).
+[Thu Sep 26 23:42:56 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:42:56 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:42:56 2013] [debug] Rendering cached template show/show.html.ep.
+[Thu Sep 26 23:42:56 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:42:56 2013] [debug] 200 OK (0.002844s, 351.617/s).
+[Thu Sep 26 23:42:57 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:42:57 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:42:57 2013] [debug] Rendering cached template show/show.html.ep.
+[Thu Sep 26 23:42:57 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:42:57 2013] [debug] 200 OK (0.013833s, 72.291/s).
+[Thu Sep 26 23:43:01 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:43:12 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:43:13 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:43:13 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:43:13 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:43:13 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:43:13 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:43:13 2013] [debug] 200 OK (0.062552s, 15.987/s).
+[Thu Sep 26 23:43:28 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:43:30 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:43:30 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:43:30 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:43:30 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:43:30 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:43:30 2013] [debug] 200 OK (0.066950s, 14.937/s).
+[Thu Sep 26 23:43:48 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:43:50 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:43:50 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:43:50 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:43:50 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:43:50 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:43:50 2013] [debug] 200 OK (0.061061s, 16.377/s).
+[Thu Sep 26 23:52:39 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:52:42 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:52:42 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:52:42 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:52:42 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:52:42 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:52:42 2013] [debug] 200 OK (0.062232s, 16.069/s).
+[Thu Sep 26 23:52:59 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:52:59 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:52:59 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:52:59 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:52:59 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:52:59 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:52:59 2013] [debug] 200 OK (0.057454s, 17.405/s).
+[Thu Sep 26 23:53:37 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:53:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:53:38 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:53:38 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:53:38 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:53:38 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:53:38 2013] [debug] 200 OK (0.062405s, 16.024/s).
+[Thu Sep 26 23:53:55 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:53:56 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:53:56 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:53:56 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:53:56 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:53:56 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:53:56 2013] [debug] 200 OK (0.060830s, 16.439/s).
+[Thu Sep 26 23:54:19 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:54:21 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:54:21 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:54:21 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:54:21 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:54:21 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:54:21 2013] [debug] 200 OK (0.059584s, 16.783/s).
+[Thu Sep 26 23:54:51 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:54:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:54:52 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:54:52 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:54:52 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:54:52 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:54:52 2013] [debug] 200 OK (0.062969s, 15.881/s).
+[Thu Sep 26 23:56:41 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:56:44 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:56:44 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:56:44 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:56:44 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:56:44 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:56:44 2013] [debug] 200 OK (0.059601s, 16.778/s).
+[Thu Sep 26 23:58:06 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:58:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:58:11 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:58:11 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:58:11 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:58:11 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:58:11 2013] [debug] 200 OK (0.061861s, 16.165/s).
+[Thu Sep 26 23:59:14 2013] [info] Listening at "http://*:3000".
+[Thu Sep 26 23:59:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 26 23:59:16 2013] [debug] GET /show (Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.76 Safari/537.36).
+[Thu Sep 26 23:59:16 2013] [debug] Routing to controller "Dostup::Show" and action "show".
+[Thu Sep 26 23:59:16 2013] [debug] Rendering template "show/show.html.ep".
+[Thu Sep 26 23:59:16 2013] [debug] Template "layouts/show.html.ep" not found.
+[Thu Sep 26 23:59:16 2013] [debug] 200 OK (0.060598s, 16.502/s).
